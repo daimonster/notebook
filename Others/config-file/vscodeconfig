@@ -1,0 +1,15 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "python.disablePromptForFeatures": [
+        "pylint"
+    ],
+    "editor.parameterHints": true,
+    "git.confirmSync": false,
+    "workbench.activityBar.visible": true,
+    "php.executablePath": "/usr/bin/php"
+}

@@ -1,0 +1,44 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = daimonster
+	email = 546508148@qq.com
+[alias]
+	st = status
+	ci = commit
+	cm = commit -m
+	br = branch
+	bra = branch -a -vv
+	brd = branch -d
+	co = checkout
+	com = checkout master
+	cob = checkout -b
+	di = diff
+	fe = fetch
+	fev = fetch -v
+	fep = fetch -p
+	pu = pull 
+	ps = push
+	pom = push origin master
+	re = remote
+	rev = remote -v
+	rea = remote add origin
+	red = remote rm 
+    ad = add .	
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[push]
+	default = simple
+[core]
+	autocrlf = input
+	quotepath = false
+[winUpdater]
+	recentlySeenVersion = 2.19.1.windows.1
+[i18n]
+	commitencoding = utf-8
+	logoutputencoding = utf-8
+[svn]
+    pathnameencoding = uft-8
